@@ -17,18 +17,19 @@
     <form>
         <fieldset class="grupo">
         <div>
-            <label for="nome"><strong>Nome</strong></label>
+            <label for="nome"><strong>Nome: </strong></label><br>
             <input type="text" nome="nome" id="nome" required>
         </div>
+        <br>
 
         <div class="campo">  
-            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <label for="sobrenome"><strong>Sobrenome: </strong></label>
             <input type="text" name="sobrenome" id="sobrenome" required>
         </div>
         </fieldset>
 
         <div class="campo">
-            <label for="email"><strong>Email</strong></label>
+            <label for="email"><strong>Email:  </strong></label>
             <input  type="email" name="email" id="email" required>
         </div>
         <div class="campo">
@@ -44,7 +45,7 @@
             </label>
         </div>
         <div>
-            <label for="senoridade"><strong>Senioridade</strong></label>
+            <label for="senioridade"><strong>Senioridade</strong></label>
             <select id="senioridade">
             <option selected disabled value="">Selecione</option>
             <option>Junior</option>
@@ -54,7 +55,7 @@
         </div>
         
         <fieldset class="grupo">
-            <div id="check">
+            <div id="check"><br>
             <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
             <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
             <label for="tecnologia1">HTML</label>
@@ -75,7 +76,7 @@
         <div class="campo">
             <br>
             <label><strong>Conte um pouco sobre sua experiência:</strong></label>
-            <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            <textarea row="6" style="width: 30em" id="experiencia" name="experiencia"></textarea>
         </div>
 
         <button class="button" type="submit">Concluído</button>
